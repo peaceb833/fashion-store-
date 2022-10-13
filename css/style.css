@@ -25,6 +25,8 @@
   .fa-bars{
       color:#FFFFFF;
       font-size: 1.7em;
+      background-color:inherit;
+      
   } 
   .badge-pill{
     background-color: #F4C95D;
@@ -57,7 +59,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 1.3em;
-  line-height: 43px;
+  line-height: 4px;
   text-shadow:3px 3px 5px rgb(90, 87, 87);
   
   }
@@ -323,7 +325,12 @@ color: black;
   margin-top: 2%;
   }
   
-  
+  .disp{
+    display: none;
+  }
+  .frat{
+    display: block;
+  }
   .b{
   font-weight: 600; 
    background:  #F4C95D;
