@@ -1,6 +1,6 @@
 var bat= document.querySelector('.brat')
 
-var frat= document.querySelector('.frat')
+var fra= document.querySelector('.up')
 var search= document.querySelector('.search')
 var input= document.querySelector('.inmp')
 var my=document.querySelector('.my')
@@ -10,19 +10,20 @@ var my=document.querySelector('.my')
 
 bat.addEventListener('click',function(){
 
-frat.classList.toggle('disp')
-alert('hello')
+fra.classList.add('disp')
+
+
 
 })
 
-my.addEventListener('click',function(){
+// my.addEventListener('click',function(){
 
-if (my==""){
+// if (my==""){
 
-  alert('hello')
+  // alert('hello')
 
 
-}})
+// }})
 
 
 

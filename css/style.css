@@ -14,8 +14,6 @@
   background-position:center bottom ;
   
   background-size: cover;
-  
-  
   }
   .nv{
   margin-left: -5vh;
@@ -25,7 +23,7 @@
   .fa-bars{
       color:#FFFFFF;
       font-size: 1.7em;
-      background-color:inherit;
+ 
       
   } 
   .badge-pill{
@@ -130,6 +128,11 @@ color: black;
   color: #ece9e9;
   
   
+  }
+  .brat{
+    background-color: inherit;
+    border: none;
+    outline: none;
   }
   .change{
   background-color: #e6dcfa;
@@ -326,10 +329,10 @@ color: black;
   }
   
   .disp{
-    display: none;
-  }
-  .frat{
     display: block;
+  }
+  .up{
+    display:none;
   }
   .b{
   font-weight: 600; 
