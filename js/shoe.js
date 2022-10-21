@@ -10,6 +10,8 @@ var ca= document.querySelector('h1')
 var cars= document.querySelector('.cars')
 var cancel= document.querySelector('.cancel')
 var image= document.querySelector('.imag')
+var trouser = document.querySelectorAll('.trouser')
+
 
 
 
@@ -21,6 +23,7 @@ b.addEventListener('click',function(){
     ca.setAttribute('data-count', add + 1);
     ca.classList.add('zero')
     b.innerText='added'
+     
     
 
 })
@@ -33,6 +36,14 @@ b.addEventListener('click',function(){
 
     ca.addEventListener('click',function(){
         cars.classList.add('d') 
+        if (cars===''){
+
+            empty.innerText='Your cart is empty'
+        
+            
+        
+           }
+        
         })
        
         cancel.addEventListener('click',function(){
