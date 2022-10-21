@@ -4,31 +4,8 @@
 
 
  
-var bat= document.querySelector('.brat')
-var fra= document.querySelector('.up')
-bat.addEventListener('click',function(){
-  
+var brat= document.querySelector('.brat');
+var up= document.querySelector('.up')
 
-fra.classList.add("dis");
-alert('hi')
-
-
-
-})
-
-// my.addEventListener('click',function(){
-
-// if (my==""){
-
-  // alert('hello')
-
-
-// }})
-
-
-
-
-
-
-
-
+brat.addEventListener('click',function(){
+fra.classList.toggle('dis')})

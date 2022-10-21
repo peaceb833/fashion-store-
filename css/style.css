@@ -330,12 +330,12 @@ color: black;
   margin-top: 2%;
   }
   
-  .dis{
-    display:block;
-  }
-  .up{
-    display:none;
-  }
+  /* .dis{ */
+    /* display:block; */
+  /* } */
+  /* .up{ */
+    /* display:none; */
+  /* } */
   .b{
   font-weight: 600; 
    background:  #F4C95D;
@@ -550,13 +550,16 @@ height: 34px;
 h1:before{
   content: attr(data-count);
   position: absolute;
- top: 26px;
- margin-left: 12px;
-  font-size: 13px;
- color: #F4C95D;
+ top: 23px;
+ margin-left: 8px;
+  font-size: 10px;
+ color: white;
   opacity: 0;
   text-align: center;
   font-weight: 600;
+  background-color: #F4C95D;
+  padding: 3px;
+  border-radius: 20px;
  
  
 }
@@ -572,8 +575,32 @@ h1.zero:before{
 .cat{
   color: #fdfcfa;
 }
+.cars{
+  z-index: 123;
+  height: 60vh;
+  background-color:#F4C95D;
+  display: none;
+  
+}
+.d{
+  display: block;
 
-
+}
+.dr{
+  display: none;
+}
+.animate{
+animation: animate 1 3s ease-in-out;
+  
+}
+@keyframes animate {
+  0%{
+  }
+ 
+ 
+ 
+  
+}
 
 
 
